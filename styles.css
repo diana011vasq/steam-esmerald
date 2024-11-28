@@ -1,0 +1,85 @@
+/* Estilos generales */
+body {
+    font-family: 'Georgia', serif; /* Fuente elegante para un estilo sofisticado */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo suave y neutro */
+    color: #333; /* Texto oscuro para legibilidad */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asegura que el contenido esté centrado verticalmente */
+    text-align: center;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    background-color: white; /* Fondo blanco para el formulario */
+    padding: 30px 40px;
+    border-radius: 10px; /* Bordes redondeados para suavizar el aspecto */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+    width: 100%;
+    max-width: 500px; /* Limita el tamaño máximo del formulario */
+}
+
+/* Título del formulario */
+h1 {
+    font-size: 2.5rem; /* Aumento del tamaño del título */
+    color: #f899b9; /* Rosa suave, en sintonía con el estilo de joyería */
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+/* Estilos para las etiquetas */
+label {
+    font-size: 1.1rem; /* Tamaño de fuente moderado */
+    color: #555; /* Gris suave para las etiquetas */
+    display: block;
+    margin: 10px 0 5px; /* Espaciado adecuado entre etiquetas y campos */
+    text-align: left;
+}
+
+/* Estilos para los campos de entrada */
+input, select {
+    width: 100%; /* Hace que los campos de entrada ocupen el 100% del ancho del formulario */
+    padding: 10px;
+    margin: 10px 0 20px; /* Espaciado entre los campos */
+    border: 1px solid #ddd; /* Borde suave */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Fondo suave para los campos */
+    font-size: 1rem;
+}
+
+/* Estilos para el checkbox */
+input[type="checkbox"] {
+    margin-right: 10px; /* Espaciado entre la casilla de verificación y el texto */
+}
+
+label[for="terminos"] {
+    font-size: 1rem; /* Tamaño de fuente para la casilla de términos */
+    color: #777; /* Color suave para el texto */
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* Botón de envío */
+button[type="submit"] {
+    background-color: #f899b9; /* Rosa suave que resalta */
+    color: white; /* Texto blanco para el botón */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+button[type="submit"]:hover {
+    background-color: #e1779b; /* Un tono más oscuro de rosa cuando se pasa el ratón */
+}
+
+/* Enlace que actúa como botón (si se usa) */
+a {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}

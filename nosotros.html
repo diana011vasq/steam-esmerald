@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros - Esmerald</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        /* Estilo del contenedor del carrusel */
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Imágenes dentro del carrusel */
+.carousel-images {
+    display: flex;
+    animation: slide 10s infinite;
+}
+
+.carousel-images img {
+    width: 100%;
+    height: auto; /* Mantiene la relación de aspecto original */
+    object-fit: contain; /* Asegura que las imágenes se ajusten sin recortarse */
+    flex-shrink: 0;
+}
+
+/* Animación de deslizamiento */
+@keyframes slide {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(0); }
+    25% { transform: translateX(-100%); }
+    45% { transform: translateX(-100%); }
+    50% { transform: translateX(-200%); }
+    70% { transform: translateX(-200%); }
+    75% { transform: translateX(-300%); }
+    95% { transform: translateX(-300%); }
+    100% { transform: translateX(-400%); }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nosotros</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="mision.html">Misión</a></li>
+                <li><a href="vision.html">Visión</a></li>
+                <li><a href="contactos.html">Contáctanos</a></li>
+                <li><a href="formulario.html">Encuesta</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Nosotros</h2>
+            <p>La idea de la empresa comenzó en el 2020 en pandemia.
+                Debido a la falta de entretenimiento, comenzamos a buscar pasatiempos tanto como para entretenernos como para ganar algo de dinero ya que la economía se estaba viendo muy afectada por la pandemia, pero la mayoría no nos convencía, y finalmente la bisutería fue lo que logró captar nuestro atención.</p>
+            <h2>Historia y Valores</h2>
+            <p>Se comenzó desde casa, los materiales se pedían por internet, y así comenzamos a hacer nuestros primeros diseños, los cuales se publicaron en una cuenta de tiktok.
+                Todo fue un proceso el cuál afortunadamente creció rápidamente, a la gente le pareció algo muy atractivo, a la moda, y accesible, en especial entre jóvenes, y a los pocos años llegamos a vender altas cifras de accesorios y nuestra marca se volvió muy reconocida entre jóvenes.</p>
+            <ul>
+                <li>Calidad: Nos aseguramos de que nuestras joyas sean bonitas, únicas y que duren mucho tiempo.</li>
+                <li>Creatividad: Inventamos diseños únicos y originales que reflejan el estilo de cada persona.</li>
+                <li>Sostenibilidad: Usamos materiales que son buenos para el planeta y hacemos las cosas de manera responsable.</li>
+                <li>Comunidad: Queremos conectar con nuestros clientes y apoyar a otros emprendedores, creando un buen ambiente para todos.</li>
+                <li>Accesibilidad: Nos esforzamos para que nuestras joyas sean asequibles, así todos puedan disfrutar de algo especial.</li>
+                <li>Autenticidad: Ser nosotros mismos es la clave, queremos que nuestras joyas muestren quiénes somos y lo que amamos.</li>
+            </ul>
+
+            <!-- Carrusel de imágenes -->
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img src="imagen/f.jpg" alt="Imagen 1">
+                    <img src="imagen/p.jpg" alt="Imagen 2">
+                    <img src="imagen/m.jpg" alt="Imagen 3">
+                    <img src="imagen/q.jpg" alt="Imagen 4">
+                    <img src="imagen/t.jpg" alt="Imagen 5">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Esmerald. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

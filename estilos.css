@@ -1,0 +1,133 @@
+/* Estilo general del body */
+body {
+    font-family: 'Georgia', serif; /* Tipografía elegante */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo suave y neutro */
+    color: #333; /* Texto oscuro */
+    line-height: 1.6; /* Mejora la legibilidad */
+    text-align: center; /* Centra todo el texto en el cuerpo */
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #fff; /* Blanco para un look más limpio */
+    color: #333; /* Texto oscuro */
+    padding: 40px 0; /* Mayor espacio para darle aire */
+    text-align: center; /* Centrado del texto del header */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera para darle profundidad */
+}
+
+/* Estilo de navegación */
+nav {
+    display: flex; /* Usamos flexbox para centrar los elementos */
+    justify-content: center; /* Centra los elementos de la barra de navegación */
+    align-items: center; /* Alinea los elementos verticalmente */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Usamos flexbox para que los elementos de la lista estén en fila */
+}
+
+nav ul li {
+    margin: 0 20px; /* Espaciado mayor para evitar que los enlaces se vean aglomerados */
+}
+
+nav ul li a {
+    color: #333; /* Enlaces en gris oscuro */
+    text-decoration: none;
+    font-size: 20px; /* Aumento el tamaño de los enlaces */
+    letter-spacing: 1px; /* Espaciado entre letras */
+    padding: 5px 0;
+    transition: color 0.3s ease, transform 0.3s ease; /* Efectos al pasar el ratón */
+}
+
+nav ul li a:hover {
+    color: #f899b9; /* Color suave para los enlaces al pasar el ratón */
+    transform: translateY(-3px); /* Leve desplazamiento hacia arriba */
+}
+
+/* Estilo del contenido principal */
+main {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Estilo para los títulos principales */
+h2 {
+    color: #f899b9; /* Color suave y elegante para los títulos */
+    font-size: 3rem; /* Aumento del tamaño de los títulos */
+    font-family: 'Georgia', serif; /* Tipografía elegante */
+    margin-bottom: 40px; /* Espacio debajo del título */
+    text-transform: uppercase; /* Títulos en mayúsculas */
+}
+
+/* Estilo para las imágenes */
+img {
+    max-width: 90%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px; /* Bordes redondeados para un toque más suave */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra sutil para las imágenes */
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #fff; /* Blanco para mantener la uniformidad */
+    text-align: center;
+    padding: 10px 0; /* Reducir el padding para que sea más pequeño */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+    color: #777; /* Color gris suave para el pie de página */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.05); /* Sombra suave para separar el pie de la página */
+}
+
+
+/* Estilo para las listas sin puntos */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Centra las listas */
+    margin: 0 auto;
+    width: fit-content;
+}
+
+li {
+    padding: 12px 0;
+    font-size: 18px; /* Aumento el tamaño de la fuente de los elementos de lista */
+}
+
+/* Estilo para los enlaces dentro de listas */
+ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #f899b9; /* Color de los enlaces cuando se pasa el ratón */
+}
+
+/* Estilos adicionales para los botones (si los hubiera) */
+button {
+    background-color: #f899b9;
+    color: white;
+    padding: 15px 35px;
+    border: none;
+    font-size: 18px; /* Aumento el tamaño de los botones */
+    font-family: 'Georgia', serif;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #e1779b;
+    transform: translateY(-2px); /* Efecto de botón flotante */
+}
